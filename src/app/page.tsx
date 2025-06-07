@@ -25,6 +25,9 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline mb-6">
             {siteConfig.clinicName}
           </h1>
+          <p className="text-xl sm:text-2xl md:text-3xl font-bold mb-8 font-headline">
+            {siteConfig.brandLine}
+          </p>
           <p className="text-xl sm:text-2xl md:text-3xl font-light mb-8 font-headline">
             {siteConfig.tagline}
           </p>
@@ -44,7 +47,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-headline">Welcome to D-Cure</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            At D-Cure, we are dedicated to providing you and your family with top-quality dental care in a modern, comfortable, and friendly environment. Our mission is to help you achieve and maintain optimal oral health, ensuring your smile is healthy and bright for years to come. We leverage the latest dental technologies and techniques to offer a comprehensive range of services tailored to your individual needs.
+          Welcome to D-CURE A Multispeciality Dental Clinic, where we provide comprehensive dental care for patients of all ages. Our team of experienced and skilled dentists offers a wide range of services, including general dentistry, cosmetic dentistry, orthodontics, periodontics, and oral surgery. We are committed to providing personalized and high-quality care in a comfortable and welcoming environment. Whether you need a routine check-up, teeth whitening, braces, or dental implants, we have the expertise to meet your needs. Contact us today to schedule an appointment and take the first step towards achieving a healthy and beautiful smile.
           </p>
         </div>
       </section>

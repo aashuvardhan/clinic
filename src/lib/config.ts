@@ -1,6 +1,7 @@
 
 export const siteConfig = {
-  clinicName: "D-Cure Multispecialty Dental Clinic",
+  clinicName: "D-CURE",
+  brandLine: "A Multispeciality Dental Clinic",
   tagline: "Where Every Smile Gets Expert Attention",
   address: "Raghunath Path, R.P.S More, Patna, Bihar 801503",
   phone: "+91 8709595329",

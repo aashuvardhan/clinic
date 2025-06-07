@@ -14,13 +14,6 @@ const navItems = [
   { label: 'Contact Us', href: '/contact' },
 ];
 
-const images={
-  width: '40px',
-  height: '40px',
-  urlSrc:'https://res.cloudinary.com/dbbox9eum/image/upload/v1749323276/oujeqkeafzh4doyiyfs2.png',
-  urlAlt:'Smiling patient at D-Cure dental clinic',
-};
-
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -30,7 +23,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
         <Image 
         src="https://res.cloudinary.com/dbbox9eum/image/upload/v1749323276/oujeqkeafzh4doyiyfs2.png"
-        alt="Smiling patient at D-Cure dental clinic"
+        alt="dcure logo"
         width={40}
         height={40}
         />
