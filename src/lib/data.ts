@@ -20,7 +20,7 @@ export const servicesData: Service[] = [
   {
     id: "cracked-teeth",
     title: "Cracked Teeth Repair",
-    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749312775/kv3xtvr6pnc41wfem42a.jpg",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319427/rayz4s97niumpdt5kjlg.jpg",
     imageHint: "tooth repair procedure",
     description: "Expert repair for cracked or chipped teeth to alleviate pain and prevent further damage, often using bonding or crowns.",
     benefits: ["Pain relief", "Restored tooth function", "Prevention of tooth loss"],
@@ -28,7 +28,7 @@ export const servicesData: Service[] = [
   {
     id: "crowns",
     title: "Crowns",
-    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749312775/kv3xtvr6pnc41wfem42a.jpg",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319503/ozmn6cyaej9mx1wem9sy.jpg",
     imageHint: "dental crown types",
     description: "Dental crowns are caps placed over damaged teeth to restore their shape, size, strength, and appearance.",
     benefits: ["Strengthens weak teeth", "Protects damaged teeth", "Improves tooth aesthetics"],
@@ -36,7 +36,7 @@ export const servicesData: Service[] = [
   {
     id: "dentures",
     title: "Dentures",
-    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749312775/kv3xtvr6pnc41wfem42a.jpg",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319569/rb6bu1wodpmlybu8llob.png",
     imageHint: "full dentures set",
     description: "Full dentures replace all teeth in an arch, providing a natural-looking smile and restoring oral functions.",
     benefits: ["Restored smile and facial aesthetics", "Improved ability to eat and speak", "Support for facial structure"],
@@ -44,7 +44,7 @@ export const servicesData: Service[] = [
   {
     id: "orthodontic",
     title: "Orthodontic Treatment",
-    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749312775/kv3xtvr6pnc41wfem42a.jpg",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319657/z48cmzx6gpjlwpq9zwev.jpg",
     imageHint: "braces aligners comparison",
     description: "Straighten your teeth and correct bite issues with modern orthodontic solutions like braces or clear aligners.",
     benefits: ["Straighter teeth and improved smile", "Better oral hygiene", "Corrected bite problems"],
@@ -52,15 +52,15 @@ export const servicesData: Service[] = [
   {
     id: "root-canal",
     title: "Root Canal Therapy",
-    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749312775/kv3xtvr6pnc41wfem42a.jpg",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319751/yicgustd7rgpadeoqgvp.jpg",
     imageHint: "root canal diagram",
     description: "Save an infected or badly decayed tooth with root canal therapy, which cleans the inside of the tooth and seals it.",
     benefits: ["Saves natural tooth", "Relieves severe toothache", "Prevents spread of infection"],
   },
   {
-    id: "scaling-polishing",
-    title: "Scaling & Polishing",
-    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749312775/kv3xtvr6pnc41wfem42a.jpg",
+    id: "scaling-rootplanning",
+    title: "Scaling & Root Planning",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319818/cu2pbkjbi1lhdrxnczfk.jpg",
     imageHint: "dental cleaning tools",
     description: "Professional dental cleaning to remove plaque and tartar buildup, followed by polishing for a smooth, bright finish.",
     benefits: ["Prevents gum disease", "Removes stains and freshens breath", "Maintains overall oral health"],
