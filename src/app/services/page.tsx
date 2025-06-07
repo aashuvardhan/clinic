@@ -4,7 +4,7 @@ import { servicesData } from '@/lib/data';
 import { Separator } from '@/components/ui/separator';
 
 export const metadata = {
-  title: 'Our Dental Services | D-Cure Dental Hub',
+  title: 'Our Dental Services | D-Cure Dental Clinic',
   description: 'Explore a wide range of dental services offered at D-Cure, from routine check-ups to advanced treatments.',
 };
 
