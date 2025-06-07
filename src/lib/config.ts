@@ -1,5 +1,6 @@
+
 export const siteConfig = {
-  clinicName: "D-Cure Dental Hub",
+  clinicName: "D-Cure Multispecialty Dental Clinic",
   tagline: "Redefining Dental Wellness.",
   address: "123 Dental Street, Smileville, CA 90210",
   phone: "+1 (555) 123-4567",
