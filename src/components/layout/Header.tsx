@@ -19,7 +19,7 @@ export default function Header() {
 
   const ToothIcon = () => (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://res.cloudinary.com/dbbox9eum/image/upload/v1749323276/oujeqkeafzh4doyiyfs2.png"
       width="40"
       height="40"
       viewBox="0 0 24 24"
