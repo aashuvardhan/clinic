@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import ContactForm from '@/components/feature/ContactForm';
 import { siteConfig } from '@/lib/config';
@@ -14,7 +15,7 @@ export default function ContactPage() {
   return (
     <div className="container mx-auto px-4 py-12 md:py-16">
       <section className="text-center mb-12 md:mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-headline">Contact D-Cure Dental Hub</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-headline">Contact D-Cure</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           We're here to help with all your dental needs. Reach out to us to schedule an appointment, ask a question, or in case of an emergency.
         </p>
