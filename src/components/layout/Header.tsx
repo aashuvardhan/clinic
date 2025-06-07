@@ -19,7 +19,7 @@ export default function Header() {
 
   const ToothIcon = () => (
     <svg
-      xmlns="https://res.cloudinary.com/dbbox9eum/image/upload/v1749323276/oujeqkeafzh4doyiyfs2.png"
+      xmlns="http://www.w3.org/2000/svg"
       width="40"
       height="40"
       viewBox="0 0 24 24"
@@ -27,8 +27,9 @@ export default function Header() {
       className="h-10 w-10 text-primary"
       aria-label="D-Cure Dental Clinic Logo - Tooth Icon"
     >
-      <title>Simple Tooth Icon</title>
-      <path d="M6 2L6 5C4.34 5 3 6.34 3 8L3 13C3 15.21 4.79 17 7 17L7 20L9 20L9 22L15 22L15 20L17 20L17 17C19.21 17 21 15.21 21 13L21 8C21 6.34 19.66 5 18 5L18 2L6 2M8 7L16 7L16 12C16 13.1 15.1 14 14 14L10 14C8.9 14 8 13.1 8 12L8 7Z" />
+      <title>Dental Clinic Tooth Icon</title>
+      <path d="M17 2H7C5.89543 2 5 2.89543 5 4V10C5 11.1046 5.89543 12 7 12H8V15C8 16.1046 8.89543 17 10 17H14C15.1046 17 16 16.1046 16 15V12H17C18.1046 12 19 11.1046 19 10V4C19 2.89543 18.1046 2 17 2ZM17 10H16V11C16 11.5523 15.5523 12 15 12H9C8.44772 12 8 11.5523 8 11V10H7V4H17V10Z" />
+      <path d="M10 17H14V20L12 22L10 20V17Z" />
     </svg>
   );
 
