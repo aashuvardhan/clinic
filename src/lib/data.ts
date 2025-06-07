@@ -13,7 +13,7 @@ export const servicesData: Service[] = [
     id: "bridges-dentures",
     title: "Bridges and Partial Dentures",
     imageUrl: "https://placehold.co/400x300.png",
-    imageHint: "dental bridge dentures",
+    imageHint: "dental bridge",
     description: "Restore your smile and chewing ability with custom-fitted bridges or partial dentures, filling gaps left by missing teeth.",
     benefits: ["Improved appearance", "Better chewing and speaking", "Prevents remaining teeth from shifting"],
   },
