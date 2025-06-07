@@ -5,7 +5,7 @@ import { oralHealthGuidesData } from '@/lib/data';
 import { Separator } from '@/components/ui/separator';
 
 export const metadata = {
-  title: 'Oral Health & Hygiene Tips | D-Cure Dental Hub',
+  title: 'Oral Health & Hygiene Tips | D-Cure Dental Clinic',
   description: 'Learn about oral health best practices for every age group, from children to seniors, with D-Cure.',
 };
 

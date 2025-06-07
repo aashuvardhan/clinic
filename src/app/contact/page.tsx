@@ -7,7 +7,7 @@ import { MapPin, Phone, Mail, Instagram, MessageSquare, Clock, AlertTriangle } f
 import { Separator } from '@/components/ui/separator';
 
 export const metadata = {
-  title: 'Contact Us | D-Cure Dental Hub',
+  title: 'Contact Us | D-Cure Dental Clinic',
   description: 'Get in touch with D-Cure for appointments, inquiries, or emergency dental care. Find our address, phone, and clinic hours.',
 };
 
