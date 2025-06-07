@@ -27,8 +27,8 @@ export default function Header() {
       className="h-10 w-10 text-primary"
       aria-label="D-Cure Dental Clinic Logo - Tooth Icon"
     >
-      <title>Tooth Icon</title>
-      <path d="M17.82,19.26C17.39,20.91 15.93,22 14,22H10C8.07,22 6.61,20.91 6.18,19.26C4.13,18.5 3,16.5 3,14.28V11C3,8.03 5.47,5.43 8.42,5.12C8.79,3.31 10.26,2 12,2C13.74,2 15.21,3.31 15.58,5.12C18.53,5.43 21,8.03 21,11V14.28C21,16.5 19.87,18.5 17.82,19.26Z" />
+      <title>Simple Tooth Icon</title>
+      <path d="M6 2L6 5C4.34 5 3 6.34 3 8L3 13C3 15.21 4.79 17 7 17L7 20L9 20L9 22L15 22L15 20L17 20L17 17C19.21 17 21 15.21 21 13L21 8C21 6.34 19.66 5 18 5L18 2L6 2M8 7L16 7L16 12C16 13.1 15.1 14 14 14L10 14C8.9 14 8 13.1 8 12L8 7Z" />
     </svg>
   );
 
