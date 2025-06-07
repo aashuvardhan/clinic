@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-border/60 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} D-Cure Dental Hub. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} D-Cure Dental Clinic. All rights reserved.</p>
         </div>
       </div>
     </footer>
