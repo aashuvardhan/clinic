@@ -103,7 +103,7 @@ export default function ContactPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-destructive-foreground">
+                <p className="text-muted-foreground">
                   For dental emergencies, please call: <a href={`tel:${siteConfig.emergencyContact}`} className="font-bold hover:underline">{siteConfig.emergencyContact}</a>
                 </p>
               </CardContent>

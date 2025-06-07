@@ -93,7 +93,7 @@ export default function ContactForm() {
                 <FormItem>
                   <FormLabel>Phone Number (Optional)</FormLabel>
                   <FormControl>
-                    <Input type="tel" placeholder="(555) 123-4567" {...field} className="rounded-md"/>
+                    <Input type="tel" placeholder="+91 1234567890" {...field} className="rounded-md"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>

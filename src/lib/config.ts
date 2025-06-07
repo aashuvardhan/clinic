@@ -2,20 +2,19 @@
 export const siteConfig = {
   clinicName: "D-Cure Multispecialty Dental Clinic",
   tagline: "Where Every Smile Gets Expert Attention",
-  address: "123 Dental Street, Smileville, CA 90210",
-  phone: "+1 (555) 123-4567",
-  email: "contact@dcure.com",
-  whatsappNumber: "15551234567", // International format without + or spaces
+  address: "Raghunath Path, R.P.S More, Patna, Bihar 801503",
+  phone: "+91 8709595329",
+  email: "drhv.indentistry@gmail.com",
+  whatsappNumber: "+918709595329", // International format without + or spaces
   get whatsappLink() {
-    return `https://wa.me/${this.whatsappNumber}?text=Hello%20D-Cure!%20I'd%20like%20to%20know%20more%20about%20your%20services.`;
+    return `https://api.whatsapp.com/send/?phone=918709595329&text=Hello%2C+Dr.+Harsh%21%0A%0AI+hope+you%27re+doing+well.+I%E2%80%99m+interested+in+booking+an+appointment+and+would+love+to+know+your+availability.+Please+let+me+know+the+best+time+to+visit.+&type=phone_number&app_absent=0`;
   },
-  instagramLink: "https://instagram.com/dcuredental",
+  instagramLink: "https://www.instagram.com/d_cure_dentalclinic/",
   clinicHours: [
-    { days: "Monday - Friday", time: "9:00 AM - 6:00 PM" },
-    { days: "Saturday", time: "10:00 AM - 4:00 PM" },
-    { days: "Sunday", time: "Closed" },
+    { days: "Monday - Friday", time: "11:00 AM - 8:00 PM" },
+    { days: "Saturday - Sunday", time: "10:00 AM - 9:00 PM" },
   ],
-  emergencyContact: "+1 (555) 765-4321",
-  googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.819561314769!3d-6.194741395514938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2c6e17ca168000!2sCentral%20Park!5e0!3m2!1sen!2sid!4v1617700200000!5m2!1sen!2sid"
+  emergencyContact: "+91 8709595329",
+  googleMapsEmbedUrl: "https://www.google.com/maps/place/D-CURE+A+Multispeciality+Dental+Clinic+%7C+Best+dental+Clinic+in+Saguna+More,+Patna+%7C+Best+Root+Canal+Treatment+%7C+Top+Dentist/@25.6168654,85.0458557,17z/data=!3m1!4b1!4m16!1m9!3m8!1s0x67913eac02a54fed:0x4a13f80cb023450c!2sD-CURE+A+Multispeciality+Dental+Clinic+%7C+Best+dental+Clinic+in+Saguna+More,+Patna+%7C+Best+Root+Canal+Treatment+%7C+Top+Dentist!8m2!3d25.6168654!4d85.0484306!9m1!1b1!16s%2Fg%2F11vm0nl7mz!3m5!1s0x67913eac02a54fed:0x4a13f80cb023450c!8m2!3d25.6168654!4d85.0484306!16s%2Fg%2F11vm0nl7mz?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
 };
 
