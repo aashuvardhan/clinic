@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -31,7 +32,7 @@ export default function Home() {
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg px-8 py-3 text-lg">
               <Link href="/contact?reason=appointment">Book an Appointment</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 rounded-lg px-8 py-3 text-lg">
+            <Button asChild variant="outline" size="lg" className="border-white text-white bg-white/20 hover:bg-white/30 rounded-lg px-8 py-3 text-lg">
               <Link href="/services">Explore Our Services</Link>
             </Button>
           </div>
