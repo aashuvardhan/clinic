@@ -1,3 +1,4 @@
+
 import AgeGroupGuide from '@/components/feature/AgeGroupGuide';
 import DentalChatbot from '@/components/feature/DentalChatbot';
 import { oralHealthGuidesData } from '@/lib/data';
@@ -12,7 +13,7 @@ export default function OralHealthPage() {
   return (
     <div className="container mx-auto px-4 py-12 md:py-16">
       <section className="text-center mb-12 md:mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-headline">Oral Health Tips for Every Age</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-headline">Oral Health Tips</h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           Maintaining good oral hygiene is crucial at every stage of life. Discover tailored tips and advice to keep your smile healthy and bright, no matter your age.
         </p>
@@ -33,3 +34,4 @@ export default function OralHealthPage() {
     </div>
   );
 }
+
