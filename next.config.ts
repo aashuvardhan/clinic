@@ -10,12 +10,7 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        port: '',
-        pathname: 'dbbox9eum/image/upload/**',
-      },
+      new URL('https://res.cloudinary.com/dbbox9eum/image/upload/**')
     ],
   },
 };
