@@ -63,7 +63,7 @@ export default function Home() {
               <CardContent>
                 <p className="text-muted-foreground">{siteConfig.address}</p>
                 <a 
-                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(siteConfig.address)}`} 
+                  href="https://www.google.com/maps/place/D-CURE+A+Multispeciality+Dental+Clinic+%7C+Best+dental+Clinic+in+Saguna+More,+Patna+%7C+Best+Root+Canal+Treatment+%7C+Top+Dentist/@25.6153604,85.0485459,17z/data=!4m15!1m8!3m7!1s0x39ed565cb06863e9:0x2c1e5e75b9b0aad2!2sRaghunath+Path,+Kaliket+Nagar,+Patna,+Danapur,+Bihar+801503!3b1!8m2!3d25.6153604!4d85.0485459!16s%2Fg%2F12hls6pgb!3m5!1s0x67913eac02a54fed:0x4a13f80cb023450c!8m2!3d25.6168654!4d85.0484306!16s%2Fg%2F11vm0nl7mz?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary hover:underline mt-2 inline-block"
