@@ -41,6 +41,10 @@ export default function ContactForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     // In a real app, you'd send this data to a server/API
     console.log("Form submitted:", values);
+    const url="https://api.whatsapp.com/send/?phone=918709595329&text=Patient+Query%0A%0AFull+Name:+"+values.name+"+%0AEmail+Address:+"+values.email+"+%0APhone+Number:+"+values.phone+"+%0AMessage:+"+values.message;
+    const newWindow = window.open(url, '_blank');
+    if (newWindow) newWindow.focus();
+    
     toast({
       title: "Message Sent!",
       description: "Thank you for contacting us. We'll get back to you soon.",
