@@ -21,8 +21,8 @@ import { Mail } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
-  email: z.string().email({ message: "Please enter a valid email address." }),
-  phone: z.string().optional(),
+  email: z.string().optional(),
+  phone: z.string().min(10, { message: "Please enter a valid phone number." }),
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
 
@@ -67,7 +67,7 @@ export default function ContactForm() {
                 <FormItem>
                   <FormLabel>Full Name</FormLabel>
                   <FormControl>
-                    <Input placeholder="John Doe" {...field} className="rounded-md"/>
+                    <Input placeholder="John Doe" {...field} className="rounded-md" required/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -78,7 +78,7 @@ export default function ContactForm() {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email Address</FormLabel>
+                  <FormLabel>Email Address (Optional)</FormLabel>
                   <FormControl>
                     <Input type="email" placeholder="john.doe@example.com" {...field} className="rounded-md"/>
                   </FormControl>
@@ -91,9 +91,9 @@ export default function ContactForm() {
               name="phone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Phone Number (Optional)</FormLabel>
+                  <FormLabel>Phone Number</FormLabel>
                   <FormControl>
-                    <Input type="tel" placeholder="+91 1234567890" {...field} className="rounded-md"/>
+                    <Input type="tel" placeholder="+91 1234567890" {...field} className="rounded-md" required/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -110,6 +110,7 @@ export default function ContactForm() {
                       placeholder="Tell us how we can help..."
                       className="min-h-[120px] rounded-md"
                       {...field}
+                      required
                     />
                   </FormControl>
                   <FormMessage />
