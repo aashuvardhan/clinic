@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative h-[calc(100vh-4rem)] min-h-[500px] sm:min-h-[600px] flex items-center justify-center text-center text-white">
         <Image
           src="https://res.cloudinary.com/dbbox9eum/image/upload/v1749323058/njitmwbq8ktnuknbh9qt.jpg"
-          alt="Smiling patient at D-Cure dental clinic"
+          alt="D-Cure dental clinic"
           layout="fill"
           objectFit="cover"
           className="z-0"

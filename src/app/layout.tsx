@@ -5,7 +5,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: 'D-Cure Dental Hub',
+  title: 'D-Cure Dental Clinic',
   description: 'Redefining Dental Wellness with D-Cure.',
 };
 
