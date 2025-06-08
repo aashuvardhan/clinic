@@ -34,19 +34,7 @@ export default function ContactPage() {
               <CardContent>
                 <p className="text-muted-foreground mb-3">{siteConfig.address}</p>
                 <div className="aspect-video w-full rounded-md overflow-hidden">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11304.691315852262!2d85.04604033455216!3d25.617819992654663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67913eac02a54fed%3A0x4a13f80cb023450c!2sD-CURE%20A%20Multispeciality%20Dental%20Clinic%20%7C%20Best%20dental%20Clinic%20in%20Saguna%20More%2C%20Patna%20%7C%20Best%20Root%20Canal%20Treatment%20%7C%20Top%20Dentist!5e0!3m2!1sen!2sin!4v1749321191770!5m2!1sen!2sin" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                  {/* Or use an iframe for a live map if preferred and API key is available
-                  <iframe 
-                    src={siteConfig.googleMapsEmbedUrl} 
-                    width="100%" 
-                    height="100%" 
-                    style={{border:0}} 
-                    allowFullScreen={true} 
-                    loading="lazy" 
-                    referrerPolicy="no-referrer-when-downgrade"
-                    className="rounded-md"
-                  ></iframe>
-                  */}
+                <iframe src={siteConfig.googleMapsEmbedUrl} width="100%"  height="100%" loading="lazy" allowFullScreen={true} referrerPolicy="no-referrer-when-downgrade"  className="rounded-md"></iframe>
                 </div>
               </CardContent>
             </Card>

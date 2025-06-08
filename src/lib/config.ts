@@ -16,7 +16,7 @@ export const siteConfig = {
     { days: "Saturday - Sunday", time: "10:00 AM - 9:00 PM" },
   ],
   emergencyContact: "+91 8709595329",
-  googleMapsEmbedUrl: "https://www.google.com/maps/place/D-CURE+A+Multispeciality+Dental+Clinic+%7C+Best+dental+Clinic+in+Saguna+More,+Patna+%7C+Best+Root+Canal+Treatment+%7C+Top+Dentist/@25.6168654,85.0458557,17z/data=!3m1!4b1!4m16!1m9!3m8!1s0x67913eac02a54fed:0x4a13f80cb023450c!2sD-CURE+A+Multispeciality+Dental+Clinic+%7C+Best+dental+Clinic+in+Saguna+More,+Patna+%7C+Best+Root+Canal+Treatment+%7C+Top+Dentist!8m2!3d25.6168654!4d85.0484306!9m1!1b1!16s%2Fg%2F11vm0nl7mz!3m5!1s0x67913eac02a54fed:0x4a13f80cb023450c!8m2!3d25.6168654!4d85.0484306!16s%2Fg%2F11vm0nl7mz?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D",
+  googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11304.691315852262!2d85.04604033455216!3d25.617819992654663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67913eac02a54fed%3A0x4a13f80cb023450c!2sD-CURE%20A%20Multispeciality%20Dental%20Clinic%20%7C%20Best%20dental%20Clinic%20in%20Saguna%20More%2C%20Patna%20%7C%20Best%20Root%20Canal%20Treatment%20%7C%20Top%20Dentist!5e0!3m2!1sen!2sin!4v1749321191770!5m2!1sen!2sin",
   logoUrl:"https://res.cloudinary.com/dbbox9eum/image/upload/v1749323276/oujeqkeafzh4doyiyfs2.png"
 };
 
