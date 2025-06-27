@@ -65,6 +65,14 @@ export const servicesData: Service[] = [
     description: "Professional dental cleaning to remove plaque and tartar buildup, followed by polishing for a smooth, bright finish.",
     benefits: ["Prevents gum disease", "Removes stains and freshens breath", "Maintains overall oral health"],
   },
+  {
+    id: "implant",
+    title: "Dental Implants",
+    imageUrl: "https://res.cloudinary.com/dbbox9eum/image/upload/v1749319818/qidqkrfzlnxm8ouqkdr8.jpg",
+    imageHint: "dental implant",
+    description: "A permanent solution for missing teeth, dental implants are titanium posts that act as artificial roots, providing a strong foundation for replacement teeth.",
+    benefits: ["Permanent and durable solution", "Looks and feels like a natural tooth", "Prevents bone loss", "Restores full chewing power"],
+  },
 ];
 
 export interface OralHealthGuide {
